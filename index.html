@@ -36,6 +36,36 @@
     </script>
 </head>
 <body>
+<div id="mainToolbar" style="width: 100%;">
+    
+    <div id="bottomPopover">
+        <input type="hidden" id="transcationButtonVisible" name="transcationButtonVisible" value="true">
+        <input type="hidden" id="saveButtonVisible" name="saveButtonVisible" value="true">
+
+    </div>
+
+    <nav id="form_nav" class="mui-bar mui-bar-tab">
+        <div id="saveButtons">
+            <div class="mui-tab-item">
+                <button type="button" class="mobile-button mui-btn-task-save" id="BTN_SAVE" name="BTN_SAVE">保存</button>
+            </div>
+
+
+            <div class="mui-tab-item"><button type="button" value="提交" class="mui-btn-primary mui-btn-execute mobile-button" id="BTN_obj_6721a21635044fb396852e140104c675" name="BTN_COMMENTOPTION">提交</button></div><div class="mui-tab-item"><button type="button" value="继续请假并结束当前流程" class="mobile-button mui-btn-task-zuofei" id="BTN_obj_5c9e3eee610d45af9d95daaead3062a8" name="BTN_COMMENTOPTION">继续请假并结束当前流程</button></div></div>
+    </nav>
+    <nav class="mui-bar mui-bar-tab" id="send_nav" style="display:none;background-color: #F3F3F3;z-index: 999;">
+        <iframe id="dialog_toolbar_extend_btn_action_page_frame_mobile" name="dialog_toolbar_extend_btn_action_page_frame_mobile" src="" frameborder="0" width="100%" height="100%" style="bottom: 0px;position: absolute;"></iframe>
+    </nav>
+
+    <div id="boItemNameSearch_div" class="mui-search-div">
+    </div>
+    <div id="grid_data_open_div" name="grid_data_open_div" class="mui-search-div" border="0" style="width:100%;height:100%;z-index: 998;">
+        <iframe id="grid_data_open_frame_mobile" name="grid_data_open_frame_mobile" scrolling="no" src="" style="width:100%;height: 100%;" frameborder="0"></iframe>
+    </div>
+    <input type="hidden" name="transactSingleTap" id="transactSingleTap" value="true">
+    <input type="hidden" name="isShowGroupchat" id="isShowGroupchat" value="false">
+    <input type="hidden" name="trackDisplay" id="trackDisplay" value="">
+</div>
 <form id="frmMain" name="frmMain" method="post">
     <div id="aws-form-container" class="mui-scroll-wrapper mobile-main-form" border="0" style="padding-bottom: 0px;"><!--class="aws-form-ux-container"-->
         <table id="aws-form-maintable" class="awsui-ux aws-form-ux-maintable" style="table-layout: auto;" align="center" border="0" cellpadding="0" cellspacing="0">
