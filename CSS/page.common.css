@@ -1,0 +1,126 @@
+/*è¿›åº¦æ¡*/
+.iae-progressBar {
+    width: 120px;
+    position: relative;
+    border: solid 1px #D8CDFF;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iae-progressBar div {
+    position: relative;
+    background: #38C36E;
+    height: 15px;
+    overflow: visible !important;
+}
+
+.iae-progressBar span {
+    position: absolute;
+    width: 120px;
+    left: 0px;
+    text-align: center;
+    line-height: 15px !important;
+}
+
+/*è¡¨å•ä¸­ä½¿ç”¨ç»„åˆæ—¶çš„è¡¨æ ¼æ ·å¼æ¸…é™¤*/
+.groupTable {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+.groupTable table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+.groupTable td {
+    padding: 0 !important;
+}
+
+.aws-form-common-grid {
+    box-shadow: 1px 1px 15px #DDD;
+}
+
+.aws-form-common-grid-toolbar {
+    border-bottom: transparent;
+    position: relative;
+}
+
+/*æ™®é€šå­è¡¨å·¥å…·æ æ ‡é¢˜*/
+.form-commongrid-toolbar-title {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 0px 0 8px !important;
+    line-height: 30px !important;
+    /*ä¸‹é¢æŽ§åˆ¶å­è¡¨æ ‡é¢˜çš„å®½åº¦ï¼Œå¦‚æžœä¸æŽ§åˆ¶ï¼Œæ³¨é‡Šä¸‹é¢4è¡Œ*/
+    /*width: 176px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+    /*top: 8px;
+    left: -1000px;ä»£ç ä¼šé‡æ–°è®¡ç®—ï¼Œè¾¾åˆ°å±…ä¸­çš„ç›®çš„
+    position: absolute;*/
+}
+
+/*Ajaxå­è¡¨å·¥å…·æ æ ‡é¢˜*/
+.form-editgrid-toolbar-title {
+    font-weight: bold !important;
+    font-size: 16px !important;
+    padding: 0px 0px 0 0 !important;
+    background-color: transparent;
+    outline: none !important;
+    border: transparent;
+    cursor: default;
+    text-align: left;
+    /*ä¸‹é¢æŽ§åˆ¶å­è¡¨æ ‡é¢˜çš„å®½åº¦ï¼Œå¦‚æžœä¸æŽ§åˆ¶ï¼Œæ³¨é‡Šä¸‹é¢4è¡Œ*/
+    /*width: 176px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+    top: 8px;
+    left: -1000px; /*ä»£ç ä¼šé‡æ–°è®¡ç®—ï¼Œè¾¾åˆ°å±…ä¸­çš„ç›®çš„*/
+    position: absolute;
+}
+
+.aws-grid-title {
+    font-size: 16px !important;
+}
+
+/*è­¦å‘Šä¿¡æ¯æ¡æ ·å¼*/
+.banner-msg {
+    margin: 10px;
+}
+
+.banner-msg-text {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+/*å®¡æ ¸æ„è§ä¸­ï¼Œä»£ç†äººç­¾åçš„é¢œè‰²*/
+.aws-form-opinion-history-list-delegator {
+    font-weight: bold;
+    color: rgb(78, 114, 184);
+}
+
+.aws-form-opinion-history-list-process-end-state {
+    font-weight: bold;
+}
+
+.aws-form-opinion-history-list-process-end-state .overtime {
+    color: rgb(184, 29, 17);
+}
+
+.aws-form-opinion-history-list-process-end-state .end {
+    color: rgb(78, 114, 184);
+}
+
+.aws-form-opinion-history-list-process-end-state .terminate {
+    color: #990000;
+}
+
+/*å­è¡¨å¯¼å…¥æŒ‰é’®æ ·å¼*/
+span.button.form_import_btn {
+    height: 18px;
+    line-height: 18px !important;
+}

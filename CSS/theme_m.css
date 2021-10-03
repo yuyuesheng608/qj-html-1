@@ -1,0 +1,148 @@
+body{
+    background: #fff !important;
+}
+/*è¡¨å•æœ€å¤–å±‚å®¹å™¨æ ·å¼*/
+.aws-form-ux-container {
+    box-shadow: none;
+    min-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.awsui-toolbar {
+    height:45px;
+}
+
+/*è¯·ä¿®æ”¹æ­¤å¤„ä»¥æ”¹å˜è¡¨å•æ ‡é¢˜æ ·å¼*/
+.aws-form-ux-header {
+
+}
+
+
+/*å­è¡¨æ ·å¼*/
+.aws-form-ux-grid {
+
+}
+
+#table_container{
+
+}
+
+/*è®¾ç½®labelå†…éƒ¨å®½åº¦ */
+.aws-form-ux-label {
+
+}
+
+/*tableå†…å®¹éƒ¨åˆ†è¾¹è·*/
+.aws-form-ux-content {
+
+}
+
+/*å¤šè¡Œå®½åº¦*/
+.colspan_3 > .txt {
+
+}
+
+
+/*è®¾ç½®è·¨åˆ—textareaå®½åº¦*/
+.td_colspan_3 textarea {
+    width: 98%;
+}
+
+/**è¦†ç›–ç³»ç»Ÿè‡ªå¸¦çš„æ ·å¼**/
+
+/*inputæ ·å¼*/
+.txt {
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 160px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.txt:hover {
+    border: 0px;
+}
+
+.txt:focus {
+    border: 0px;
+}
+
+.awsui-ux {
+}
+
+.table-bordered {
+    border: transparent !important;
+}
+
+/*æ¡çº¹çŠ¶è¡¨æ ¼*/
+/*å¥‡æ•°è¡Œ*/
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #ffffff;
+}
+/*å¶æ•°è¡Œ*/
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background-color: #ffffff;
+}
+
+/*è¦†ç›–ç³»ç»Ÿä¸­çš„input*/
+.awsui-ux .awsui-textbox, .awsui-ux .awsui-textarea, .awsui-ux .txt, .awsui-ux .awsui-pickadate, .awsui-ux .awsui-pickatime {
+    width: 100%;
+    min-width: 120px;
+}
+
+/*è¦†ç›–ç³»ç»Ÿä¸­çš„title*/
+td.awsui-ux-title{
+}
+
+td.aws-form-ux-content {
+}
+
+/*è¦†ç›–æ‰‹æœºè¡¨å•çš„æŠ˜åˆ—å­è¡¨æ ·å¼*/
+.aws-mc-row-odd {
+    /*border: 1px solid #dddddd;*/
+    width : 100%;
+    height: 50px;
+}
+.aws-mc-title-odd {
+    padding: 10px 0 10px 15px;
+    width:30% !important;
+    height: 50px;
+    border-bottom: 1px solid #dddddd;
+}
+.aws-mc-content-odd {
+    position: relative;
+    padding-right: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.aws-mc-row-even {
+    /*border: 1px solid #dddddd;*/
+    width : 100%;
+    height: 50px;
+}
+
+.aws-mc-title-even {
+    padding: 10px 0 10px 15px;
+    width:30% !important;
+    height: 50px;
+    border-bottom: 1px solid #dddddd;
+}
+.aws-mc-content-even {
+    position: relative;
+    padding-right: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/**
+ * è¡¨å•å¤–éƒ¨table
+ */
+.aws-form-ux-maintable {
+    width: 100%;
+    min-width: 100%;
+}

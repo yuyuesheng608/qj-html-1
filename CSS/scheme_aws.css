@@ -1,0 +1,53 @@
+/*ä»¥ä¸‹ä¸ºé…è‰²æ–¹æ¡ˆ (å¹³å°é»˜è®¤)*/
+
+/*èƒŒæ™¯é¢œè‰²*/
+body {
+    background: url('../../img/model/form_designer/theme/background.png') repeat !important;
+}
+
+/*å¤–å±‚tableå®¹å™¨*/
+#aws-form-maintable{
+
+}
+
+/*æ ‡é¢˜èƒŒæ™¯*/
+#aws-form-maintable .aws-form-ux-titlebg {
+
+}
+
+/*æ ‡é¢˜æ–‡å­—é¢œè‰²*/
+#aws-form-maintable .aws-form-ux-header {
+    color: #000000 !important;
+}
+
+/*å†…å®¹æ–‡å­—åŠèƒŒæ™¯æ ·å¼*/
+#aws-form-maintable .aws-form-ux-formcontent{
+    background: #FFFFFF;  !important;
+}
+
+/*æ¡çº¹çŠ¶è¡¨æ ¼*/
+/*å¥‡æ•°è¡Œ*/
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+/*å¶æ•°è¡Œ*/
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background-color: #ffffff;
+}
+
+/*å­—æ®µèƒŒæ™¯æ ‡é¢˜é¢œè‰²*/
+.awsui-ux-title {
+
+}
+
+/*å­—æ®µèƒŒæ™¯å­—æ®µé¢œè‰²*/
+.aws-form-ux-content{
+}
+
+/*é¢†å¯¼ç­¾ç« */
+.parent {
+    display: flex;
+    align-items: flex-end;
+}
