@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中华女子学院学生出校申请</title>
+    <link type='text/css' rel='stylesheet' href='CSS/aws-form-ux.css?v=1553941583000' />
+    <!--公共CSS-->
+    <link rel='stylesheet' href='CSS/page.common.css?v=1553751288000'/>
+    <!--手机表单的CSS文件-->
+    <!--手动引入awsui.css文件中的样式，提高加载速度-->
+    <link type="text/css" rel="stylesheet" href="CSS/public.css?v=1555404492000" />
+    <link type="text/css" rel="stylesheet" href="CSS/aws.ui.all.css?v=1553941583000" />
+    <!--目前使用MUI框架-->
+    <link type='text/css' rel='stylesheet' href='CSS/mui.all.min.css?v=1521618668000'/>
+    <link rel='stylesheet' type='text/css' href='CSS/client.bpm.form.mobile.common.css?v=1608704984000' />
+    <link rel='stylesheet' type='text/css' href='CSS/iconfont.css?v=1555404492000' />
+    <!--手机表单的CSS文件结束-->
+    <link rel='stylesheet' id='schemeCss' href='CSS/scheme_aws.css?v=1598854701000'  name='schemeCss'/>
+
+    <style>
+        .awsui-ux-title{
+            text-align:center;
+        }
+        .lxcss,.fxcss,.lcjscss{
+            width:150px;
+            height:110px;
+        }
+        #QJSY,#XDGJWB{
+            border:1px solid rgba(0,0,0,.2);
+        }
+    </style>
+    <link type='text/css' rel='stylesheet' id='themeCss' href='CSS/theme_m.css?v=1521618657000' name='themeCss'/>
+    <script type="text/javascript">
+        var date = "2021-10-03";
+        document.getElementById("QJSJ_Readonly").innerText="111";
+    </script>
+</head>
+<body>
+<form id="frmMain" name="frmMain" method="post">
+    <div id="aws-form-container" class="mui-scroll-wrapper mobile-main-form" border="0" style="padding-bottom: 0px;"><!--class="aws-form-ux-container"-->
+        <table id="aws-form-maintable" class="awsui-ux aws-form-ux-maintable" style="table-layout: auto;" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+            <tr id="aws-form-titlebg" class="aws-form-ux-titlebg" style="display: none;">
+                <td id="aws-form-title" class="aws-form-ux-header">中华女子学院学生出校申请</td>
+            </tr>
+            <tr class="aws-form-ux-formcontent" id="aws-form-formcontent">
+                <td>
+                    <table id="table_container" class="awsui-ux table-striped" style="padding: 0px;" width="100%" cellspacing="0" cellpadding="0"><colgroup> <col style="width: 31%;"> <col style="width: 69%;"> </colgroup>
+                        <tbody>
+                        <tr>
+                            <td colspan="2"><!-- 返回上一步 -->
+                                <div border="0" style="padding-top: 6px; padding-bottom: 6px; padding-left: 12px; background-color: #f8f8f8;"><img src="icon/back.png" id="home-icon" onclick="gotoHistory();" class="work-list-home"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div border="0" style="text-align: center;"><img src="icon/lx.gif" style="" class="lxcss"> <img src="../apps/com.awspaas.user.apps.xsqj/img/fx.gif" style="display: none;" class="fxcss"> <img src="../apps/com.awspaas.user.apps.xsqj/img/lcjs.png" style="display: none;" class="lcjscss"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title" style="padding: 0px; white-space: unset; background-color: #ffffff;" colspan="2">
+                                <div class="form-head-icon-zone icon-container" border="0">
+                                    <div class="form-head-icon-zone left" border="0"><img src="icon/180811023.jpg"></div>
+                                    <div class="form-head-icon-zone right" border="0">
+                                        <div class="form-head-icon-zone name" border="0" style="text-align: left; padding-left: 10px;">孙悦（180811023）</div>
+                                        <div class="form-head-icon-zone info" border="0" style="text-align: left; padding-left: 10px;">计算机系</div>
+                                    </div>
+                                </div>
+                                <div class="form-grid-mobile-separator" border="0"></div>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SQRLabel" for="SQR">申&nbsp;请&nbsp;人</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SQR" id="SQR" componentid="AWSUI.Text" value="陈迎倩"><label id="SQR_Readonly">陈迎倩</label>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SQRQLabel" for="SQRQ">申请日期</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SQRQ" id="SQRQ" componentid="AWSUI.Date" value="2021-09-29"><label id="SQRQ_Readonly">2021-09-29</label>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SZYXLabel" for="SZYX">所在院系</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SZYX" id="SZYX" componentid="AWSUI.Text" value="计算机系"><label id="SZYX_Readonly">计算机系</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="QJSJLabel" for="QJSJ" style="color: red; font-size: 24px; font-weight: bold;">出校日期</label></td>
+                            <td class="aws-form-ux-content"><span style="width: 80px; color: red; font-size: 24px; font-weight: bold; padding-left: 10px;"><input type="hidden" name="QJSJ" id="QJSJ" componentid="AWSUI.Date" value="2021-10-01"><label id="QJSJ_Readonly">2021-10-03</label>
+</span></td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="QJSJZYLabel" for="QJSJZY" style="color: green; font-size: 24px; font-weight: bold;">进校日期</label></td>
+                            <td class="aws-form-ux-content"><span id="sjzy" style="width: 80px; color: green; font-size: 24px; font-weight: bold; padding-left: 10px;"><input type="hidden" name="QJSJZY" id="QJSJZY" componentid="AWSUI.Date" value="2021-10-01"><label id="QJSJZY_Readonly">2021-10-03</label>
+</span></td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="QJTSLabel" for="QJTS">请假天数</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="QJTS" id="QJTS" componentid="AWSUI.Text" value="1"><label id="QJTS_Readonly">1</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="LXFSLabel" for="LXFS">联系方式</label></td>
+                            <td class="aws-form-ux-content"><a href="tel:18811414526">18811414526</a><input type="hidden" name="LXFS" id="LXFS" componentid="AWSUI.Text" value="18811414526">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="SZXQLabel" for="SZXQ">所在校区</label></td>
+                            <td class="aws-form-ux-content"><div class="mui-icon-div"><input type="text" style="position:relative;" class="mui-input-right" placeholder="" name="SZXQ_mobileopen" uitype="AWSUI.RadioGroups" value="本部" id="SZXQ_mobileopen" readonly=""><span class="mui-icon-span"><span class="mui-icon mui-input-right"></span></span></div><input type="hidden" name="SZXQ" value="本部" id="SZXQ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="QJSYLabel" for="QJSY">请假事由</label></td>
+                            <td class="aws-form-ux-content" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px;"><span class="mui-input-row"><textarea id="QJSY" name="QJSY" style="display:none">电脑充电器接触不良，去维修（刚好图书馆10.1-10.2闭馆）</textarea><div readonly="readonly" class="txt awsui-textarea" style="padding: 0px; white-space: pre-line; border: transparent; background-color: transparent; height: 18px;" id="QJSY_Readonly" name="QJSY_Readonly" title="">电脑充电器接触不良，去维修（刚好图书馆10.1-10.2闭馆）</div></span>
+                                <div style="width:100%;" id="awsuiFile_QJSYFJ">&nbsp;</div><input componentid="AWSUI.File" type="hidden" name="QJSYFJ" id="QJSYFJ" value="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="MDDLabel" for="MDD">目&nbsp;的&nbsp;地</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="MDD" id="MDD" componentid="AWSUI.Text" value="惠普维修中心"><label id="MDD_Readonly">惠普维修中心</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="JJLXRLabel" for="JJLXR">紧急联系人</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="JJLXR" id="JJLXR" componentid="AWSUI.Text" value="禹若汐"><label id="JJLXR_Readonly">孙悦</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="LXRDHLabel" for="LXRDH">手机号码</label></td>
+                            <td class="aws-form-ux-content"><a href="tel:18772587760">18772587760</a><input type="hidden" name="LXRDH" id="LXRDH" componentid="AWSUI.Text" value="18772587760">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="LXRGXLabel" for="LXRGX">与本人关系</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="LXRGX" id="LXRGX" componentid="AWSUI.Text" value="室友"><label id="LXRGX_Readonly">室友</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="BZLabel" for="BZ">备&nbsp;&nbsp;&nbsp;&nbsp;注</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="BZ" id="BZ" componentid="AWSUI.Text" value=""><label id="BZ_Readonly">&nbsp;</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; font-size: 18px; font-weight: bold; padding: 5px;" colspan="2">以下为返校时填写</td>
+                        </tr>
+                        <tr>
+                            <td class="awsui-ux-title"><label id="XDGJWBLabel" for="XDGJWB">行动轨迹</label></td>
+                            <td class="aws-form-ux-content" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px;"><span class="required"><textarea class="mui-input-clear" placeholder="" id="XDGJWB" name="XDGJWB" title="" style="height: 100px;"></textarea></span>
+                                <div style="width:100%;" id="awsuiFile_XDGJFJ"><div id="up_XDGJFJ_File" style="width:42px;height:42px;background-color:#f8f8f8;border-radius:3px;margin-bottom:6px;text-align:center;color:#999;"><img src="icon/addfile.svg" style="width:40px;position:relative;top:-1px;left:1px;"><span style="font-size:14px;position:relative;top:-3px;"></span></div><input type="file" style="display:none;" id="upfile_up_XDGJFJ_File" multiple="multiple"></div><input componentid="AWSUI.File" type="hidden" name="XDGJFJ" id="XDGJFJ" value="">
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SQRZHLabel" for="SQRZH">申请人账号</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SQRZH" id="SQRZH" componentid="AWSUI.Text" value="180811040"><label id="SQRZH_Readonly">180811040</label>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SQBMIDLabel" for="SQBMID">申请部门ID</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SQBMID" id="SQBMID" componentid="AWSUI.Text" value="74c93e79-f3b9-4c3c-a25e-c40ab0f55787"><label id="SQBMID_Readonly">74c93e79-f3b9-4c3c-a25e-c40ab0f55787</label>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title" colspan="2"><label id="STATUSLabel" for="STATUS">状态</label></td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="aws-form-ux-content" colspan="2" style="padding-left: 12px;"><input type="hidden" name="STATUS" id="STATUS" componentid="AWSUI.ComboBox" value="通过"><label id="STATUS_Readonly">通过</label>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="awsui-ux-title"><label id="SQSJLabel" for="SQSJ">申请时间</label></td>
+                            <td class="aws-form-ux-content"><input type="hidden" name="SQSJ" id="SQSJ" componentid="AWSUI.Date" value="2021-09-29"><label id="SQSJ_Readonly">2021-09-29</label>
+                                <span class="mui-input-row"><input type="text" class="mui-input-clear" placeholder="" name="LCZT" id="LCZT" value="审批中" data-input-clear="1"><span class="mui-icon mui-icon-clear mui-hidden"></span></span>
+                                <span class="mui-input-row"><input type="text" class="mui-input-clear" placeholder="" name="SFJXQJ" id="SFJXQJ" value="否" data-input-clear="2"><span class="mui-icon mui-icon-clear mui-hidden"></span></span>
+                                <span class="mui-input-row"><input type="text" class="mui-input-clear" placeholder="" name="BJ" id="BJ" value="2018级计算机科学与技术1班" data-input-clear="3"><span class="mui-icon mui-icon-clear mui-hidden"></span></span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr class="aws-form-bottom">
+                <td class="aws-form-ux-actionsoft">
+
+                    <script>
+                        var 开始上传大小 = "开始上传，大小";
+                        var 正在提交数据 = "正在提交数据";
+                        var 按钮 = "按钮";
+                        var 委托 = "转办";
+                        var 数据未保存切换页面数据会丢失 = "数据未保存，切换页面数据会丢失";
+                        var 正在准备数据 = "正在准备数据";
+                        var 隐藏 = "隐藏";
+                        var 确定要接收办理吗 = "确定要接收办理吗？";
+                        var 特事特办 = "特事特办";
+                        var 操作 = "操作";
+                        var 请先保存表单数据 = "请先保存表单数据";
+                        var 操作人 = "操作人";
+                        var 状态 = "状态";
+                        var 执行时间 = "执行时间";
+                        var 数据加载失败 = "数据加载失败";
+                        var 正在写入文件 = "正在写入文件";
+                        var 操作成功 = "操作成功";
+                        var 操作失败 = "操作失败";
+                        var 确定要收回未处理的沟通任务吗 = "确定要收回未处理的沟通任务吗？";
+                        var 传阅 = "传阅";
+                        var 删除任务 = "删除任务";
+                        var 表单已经被打开 = "表单已经被打开";
+                        var 办理 = "确认提交";
+                        var 下载错误执行导出时失败 = "下载错误：执行导出时失败，";
+                        var 大小 = "大小";
+                        var 普通 = "普通";
+                        var 秘密 = "秘密";
+                        var 机密 = "机密";
+                        var 绝密 = "绝密";
+                        var 导出失败 = "导出失败：";
+                        var 没有找到函数 = "没有找到btclickSuccess函数";
+                        var 提示 = "提示";
+                        var 确定要认领吗 = "确定要认领吗？";
+                        var 确定要交回任务吗 = "确定要交回任务吗？";
+                        var 请先保存文件 = "请先保存文件";
+                        var 保存失败 = "保存失败";
+                        var 文档内容不允许为空 = "文档内容不允许为空";
+                        var 文档字数不允许大于 = "文档字数不允许大于";
+                        var 完成 = "完成";
+                        var 收回 = "收回";
+                        var 收回原因不允许为空 = "[收回原因]不允许为空";
+                        var 时间 = "时间";
+                        var 详细信息 = "详细信息";
+                        var 更多 = "更多";
+                        var 下载 = "下载";
+                        var 驳回 = "驳回";
+                        var 发送一次请求 = "发送一次请求";
+                        var 修改完毕 = "修改完毕";
+                        var 导入文件必须是文件 = "导入文件必须是Excel文件";
+                        var 校验未通过 = "校验未通过";
+                        var 上传 = "上传";
+                        var 完毕 = "完毕";
+                        var 确定要作废吗 = "确定要放弃吗？";
+                        var 正在办理 = "正在办理...";
+                        var 执行异常 = "执行异常";
+                        var 传阅表单 = "传阅表单";
+                        var 导入 = "导入";
+                        var 删除 = "删除";
+                        var 如果离开本页面所做的更改将会丢失 = "如果离开本页面，所做的更改将会丢失";
+                        var 当前模式处于模拟测试模式或者表单模式不支持扩展按钮的操作 = "当前模式处于模拟测试模式或者URL表单模式，不支持扩展按钮的操作";
+                        var 子表 = "子表";
+                        var 自定义校验未通过 = "自定义校验未通过";
+                        var 只读表单不支持该操作 = "只读表单不支持该操作";
+                        var 任务已删除 = "任务已删除";
+                        var 任务状态 = "任务状态";
+                        var 删除失败 = "删除失败：";
+                        var 不同意 = "不同意";
+                        var 确定要获取编辑权吗 = "确定要获取编辑权吗？";
+                        var 文件名 = "文件名";
+                        var 正在保存 = "正在保存...";
+                        var 正在提交 = "正在提交...";
+                        var 请为审核意见上传附件 = "请为[审核意见]上传附件";
+                        var 意见留言不允许超过 = "[意见留言]不允许超过";
+                        var 字 = "字";
+                        var 请选择审核菜单 = "请选择审核菜单";
+                        var 意见留言不允许为空 = "[意见留言]不允许为空";
+                        var 请先保存表单 = "请先保存表单";
+                        var 扩展按钮 = "扩展按钮";
+                        var 执行动作异常 = "执行动作异常";
+                        var 取消收藏 = "取消收藏";
+                        var 收藏 = "收藏";
+                        var 请选择审批意见 = "请选择审批意见";
+                        var 输入关键词模糊搜索 = "输入关键词模糊搜索";
+                    </script>
+                    <script>
+                        //校验相关的国际化
+                        var 行 = "行";
+                        var 正则表达式 = "正则表达式";
+                        var 数值范围校验出错请确认值 = "数值范围校验出错请确认值";
+                        var 执行出错请确认脚本返回布尔值 = "执行出错请确认脚本返回布尔值";
+                        var 脚本 = "脚本";
+                        var 最小值校验出错请确认值 = "最小值校验出错请确认值";
+                        var 的有效性 = "的有效性";
+                        var 执行出错请确认语法正确 = "执行出错请确认语法正确";
+                        var 表达式 = "表达式";
+                        var 最大值校验出错请确认值 = "最大值校验出错请确认值";
+                        var 第 = "第";
+                        var 执行出错请确认语句值为布尔值 = "执行出错请确认语句值为布尔值";
+                    </script>
+                    <script type="text/javascript" src="../apps/_bpm.portal/js/client.bpm.form.page.common.js?v=1592277738000"></script><script type="text/javascript" src="../commons/js/api/processFormAPI.js?v=6.2.GA"></script><script type="text/javascript" src="../apps/_bpm.portal/js/client.bpm.form.page.comment.util.js?v=6.2.GA"></script>
+
+
+                    <!--表单校验-->
+                    <script>
+                        function validateForm() {
+                            var cellvalue='',record='';
+                            try {
+                                var validateSQR = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','SQR','申请人',{"displayValue":"","boItemId":"a8b50211-7200-4fa3-ba73-678e95d62471","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateSQR == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSQRQ = UIValidate.validateMobileUIComponentCommon('BO_EU_XSQJ_LX','SQRQ','申请日期',{"displayValue":"","boItemId":"85380cf3-61f3-401b-b58d-f5b88186a29c","columnType":"DATE","search":"0","displayRule":"","isNullable":false,"length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"}, cellvalue, record,false)
+                                if (validateSQRQ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSZYX = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','SZYX','所在院系',{"displayValue":"","boItemId":"0ce181a3-5cc6-4849-90e0-74fa4b055f4c","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateSZYX == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateLXFS = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','LXFS','联系方式',{"displayValue":"","boItemId":"16266c78-ec30-4f98-bbe4-168a00f5c3fe","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateLXFS == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateQJSY = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','QJSY','请假事由',{"listHeight":"100","autoHeight":"false","length":"2000","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","displayValue":"","boItemId":"e65983cf-34ea-46da-9c30-f69afae5f11a","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"fnKey1":"false","placeholder":"","fnKey2":"false","fnKey3":"false","key":""},cellvalue, record)
+                                if (validateQJSY == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateQJSYFJ = UIValidate.validateUIComponentFile('BO_EU_XSQJ_LX','QJSYFJ','请假事由附件',{"waterMarkFlag":"","canPreviewOfficeFlag":"0","waterMarkFontColor":"","canPreviewWPSEdit":"1","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","fileCount":"0","createuser_width":"","compressFlag":"","boItemId":"c4696cec-75d0-419b-819a-6659d8ce995a","filesize_width":"","fileMaxSize":"","sortField":"CREATEDATE","canPreviewYOZOEdit":"1","waterMarkPosition":"","waterMarkFontSize":30,"createdate_width":"","uiSetting":{"anyFileExtList":""},"canPreviewWPSFlag":"1","length":"2000","uploadField":"上传人|CREATEUSER||false,上传时间|CREATEDATE||false,大小|FILESIZE||false,授权|AUTHORIZATION||false,预览|PREVIEW||false","displayValue":"","columnType":"TEXT","displayRule":"","anyFile":true,"sortType":"asc","isNullable":true,"canPreviewYOZOFlag":"1","isEncrypt":true}, cellvalue, record)
+                                if (validateQJSYFJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateQJSJ = UIValidate.validateMobileUIComponentCommon('BO_EU_XSQJ_LX','QJSJ','请假时间始于',{"minDate":"$SQRQ","dwfmt":"(EE)","length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","showtype":"doubleCalendar","advSetting":"{onpicked:function() {\n var $kssj = $(\"#QJSJ\"), $jssj = $(\"#QJSJZY\");\n  var dkssj = new Date($kssj.val()), djssj = new Date($jssj.val());\n  var now = new Date();\n  if ($kssj.val() != '' && $jssj.val() != '') {\n    $(\"#QJTS\").val((djssj-dkssj)/86400/1000+1);\n  }\n}\n}","showDayOfWeek":"false","displayValue":"","boItemId":"3c74bb5b-a80c-4d88-bec3-0a9f40776e72","columnType":"DATE","displayRule":"","isNullable":false,"maxDate":"","placeholder":""}, cellvalue, record,false)
+                                if (validateQJSJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateQJSJZY = UIValidate.validateMobileUIComponentCommon('BO_EU_XSQJ_LX','QJSJZY','请假时间止于',{"minDate":"$QJSJ","dwfmt":"(EE)","length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","showtype":"doubleCalendar","advSetting":"{onpicked:function() {\n var $kssj = $(\"#QJSJ\"), $jssj = $(\"#QJSJZY\");\n  var dkssj = new Date($kssj.val()), djssj = new Date($jssj.val());\n  var now = new Date();\n  if ($kssj.val() != '' && $jssj.val() != '') {\n    $(\"#QJTS\").val((djssj-dkssj)/86400/1000+1);\n  }\n}\n}","showDayOfWeek":"false","displayValue":"","boItemId":"44467d17-783e-4c6c-8611-35b68226da2c","columnType":"DATE","displayRule":"","isNullable":false,"maxDate":"","placeholder":""}, cellvalue, record,false)
+                                if (validateQJSJZY == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateQJTS = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','QJTS','请假天数',{"boUrlFormData":{"hrefSelVal":"nothing"},"displayValue":"","boItemId":"6425b1d6-fe23-4c74-b400-230e3e5b88c1","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","placeholder":"","isClearAllText":true,"barCode":false},cellvalue, record)
+                                if (validateQJTS == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateMDD = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','MDD','目的地',{"boUrlFormData":{"hrefSelVal":"nothing"},"displayValue":"","boItemId":"c7fe902a-5b40-4c64-8b11-efa1e5a55fd4","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","placeholder":"请填写请假目的地","isClearAllText":true,"barCode":false},cellvalue, record)
+                                if (validateMDD == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateJJLXR = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','JJLXR','紧急联系人',{"displayValue":"","boItemId":"293ea4ea-a60e-4b31-9b56-b3b26fc677a6","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateJJLXR == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateLXRDH = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','LXRDH','手机号码',{"displayValue":"","boItemId":"88efc03a-fb97-4a4a-821e-64cc9fee01cd","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateLXRDH == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateLXRGX = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','LXRGX','与本人关系',{"displayValue":"","boItemId":"aa76f1b6-cbeb-4e70-811a-0f84293040e8","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateLXRGX == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateBZ = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','BZ','备注',{"displayValue":"","boItemId":"526ad118-7c0c-44e3-8a9d-ddede8561703","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"2000","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateBZ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateXDGJWB = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','XDGJWB','行动轨迹',{"listHeight":"100","autoHeight":"false","length":"2000","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","displayValue":"","boItemId":"e2c88cf5-29e2-4295-986d-5ab4bd15d125","columnType":"TEXT","search":"0","displayRule":"","isNullable":false,"fnKey1":"false","placeholder":"","fnKey2":"false","fnKey3":"false","key":""},cellvalue, record)
+                                if (validateXDGJWB == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateXDGJFJ = UIValidate.validateUIComponentFile('BO_EU_XSQJ_LX','XDGJFJ','行动轨迹附件',{"waterMarkFlag":"","canPreviewOfficeFlag":"0","waterMarkFontColor":"","canPreviewWPSEdit":"1","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","fileCount":"0","createuser_width":"","compressFlag":"","boItemId":"6dc9c768-8324-4a53-8d5b-88e2e8fc7d31","filesize_width":"","fileMaxSize":"","sortField":"CREATEDATE","canPreviewYOZOEdit":"1","waterMarkPosition":"","waterMarkFontSize":30,"createdate_width":"","uiSetting":{"anyFileExtList":""},"canPreviewWPSFlag":"1","length":"2000","uploadField":"上传人|CREATEUSER||false,上传时间|CREATEDATE||false,大小|FILESIZE||false,授权|AUTHORIZATION||false,预览|PREVIEW||false","displayValue":"","columnType":"TEXT","displayRule":"","anyFile":true,"sortType":"asc","isNullable":true,"canPreviewYOZOFlag":"1","isEncrypt":true}, cellvalue, record)
+                                if (validateXDGJFJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSQRZH = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','SQRZH','申请人账号',{"displayValue":"","boItemId":"bacf36d4-4065-4870-9472-2983e1830725","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateSQRZH == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSQBMID = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','SQBMID','申请部门ID',{"displayValue":"","boItemId":"2822da3c-476f-44b6-b6c4-bd745fb68780","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateSQBMID == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSTATUS = UIValidate.validateUISelect2('BO_EU_XSQJ_LX','STATUS','状态',{"data":[{"label":"审批中","value":"审批中"},{"label":"通过","value":"通过"},{"label":"归档","value":"归档"},{"label":"作废","value":"作废"}],"exportDataValidity":true,"isAdvance":false,"dataType":"sampleText","length":"128","newdata":[{"label":"审批中","value":"审批中"},{"label":"通过","value":"通过"},{"label":"归档","value":"归档"},{"label":"作废","value":"作废"}],"boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","mode":"common","boUrlFormData":{"hrefSelVal":"nothing"},"displayValue":"","boItemId":"a5c2085f-68ae-4995-9cfb-aa3c0c2f92ad","columnType":"TEXT","displayRule":"","readonly":true,"isNullable":true,"placeholder":"","setunival":true,"dataSource":[{"label":"审批中","value":"审批中"},{"label":"通过","value":"通过"},{"label":"归档","value":"归档"},{"label":"作废","value":"作废"}]}, cellvalue, record)
+                                if (validateSTATUS == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSQSJ = UIValidate.validateMobileUIComponentCommon('BO_EU_XSQJ_LX','SQSJ','申请时间',{"displayValue":"","boItemId":"fd853600-226c-489a-85af-de6c533d9848","columnType":"DATE","search":"0","displayRule":"","isNullable":true,"length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"}, cellvalue, record,false)
+                                if (validateSQSJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateLCZT = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','LCZT','流程状态',{"displayValue":"","boItemId":"9eccc76c-cc2b-46b4-8395-e45006067bd8","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateLCZT == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSZXQ = UIValidate.validateUIRadioGroup('BO_EU_XSQJ_LX','SZXQ','所在校区',{"data":"本部|北校区","exportDataValidity":true,"num":"5","readonlyDisplayAll":true,"dataType":"sampleText","length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","displayValue":"","boItemId":"1b85cc18-1ed9-4d93-8bba-36eb475c4995","columnType":"TEXT","displayRule":"","isNullable":true},cellvalue, record)
+                                if (validateSZXQ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateSFJXQJ = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','SFJXQJ','是否继续请假',{"displayValue":"","boItemId":"13a251d4-06d7-4314-b374-529dd796d2ce","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"128","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateSFJXQJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                var validateBJ = UIValidate.validateUIComponentText('BO_EU_XSQJ_LX','BJ','年级',{"displayValue":"","boItemId":"42fad517-cc5e-4c05-b541-e50a54c268be","columnType":"TEXT","search":"0","displayRule":"","isNullable":true,"length":"200","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"},cellvalue, record)
+                                if (validateBJ == false ) {
+                                    return false;
+                                }
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            return true;
+                        }//end of ValidateJS
+                    </script>
+
+                    <!--初始化UI组件-->
+                    <script>
+                        function initFormUI(){
+                            try {
+                                UIInit.initUIComponentText('SQR',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initMobileUIComponentDate('SQRQ',{"displayValue":"","boItemId":"85380cf3-61f3-401b-b58d-f5b88186a29c","columnType":"DATE","search":"0","displayRule":"","isNullable":false,"length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('SZYX',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('LXFS',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentTextarea('QJSY',{"listHeight":"100","autoHeight":"false","placeholder":"","fnKey1":"false","fnKey2":"false","fnKey3":"false","key":"","search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentFile('QJSYFJ',{"waterMarkFlag":"","canPreviewOfficeFlag":"0","waterMarkFontColor":"","canPreviewWPSEdit":"1","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","fileCount":"0","createuser_width":"","compressFlag":"","boItemId":"c4696cec-75d0-419b-819a-6659d8ce995a","filesize_width":"","fileMaxSize":500,"sortField":"CREATEDATE","canPreviewYOZOEdit":"1","waterMarkPosition":"","waterMarkFontSize":30,"createdate_width":"","uiSetting":{"anyFileExtList":""},"canPreviewWPSFlag":"1","length":"2000","uploadField":"上传人|CREATEUSER||false,上传时间|CREATEDATE||false,大小|FILESIZE||false,授权|AUTHORIZATION||false,预览|PREVIEW||false","displayValue":"","columnType":"TEXT","displayRule":"","anyFile":true,"sortType":"asc","isNullable":true,"canPreviewYOZOFlag":"1","isEncrypt":true});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initMobileUIComponentDate('QJSJ',{"minDate":"$SQRQ","dwfmt":"(EE)","length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","showtype":"doubleCalendar","advSetting":"{onpicked:function() {\n var $kssj = $(\"#QJSJ\"), $jssj = $(\"#QJSJZY\");\n  var dkssj = new Date($kssj.val()), djssj = new Date($jssj.val());\n  var now = new Date();\n  if ($kssj.val() != '' && $jssj.val() != '') {\n    $(\"#QJTS\").val((djssj-dkssj)/86400/1000+1);\n  }\n}\n}","showDayOfWeek":"false","displayValue":"","boItemId":"3c74bb5b-a80c-4d88-bec3-0a9f40776e72","columnType":"DATE","displayRule":"","isNullable":false,"maxDate":"","placeholder":""});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initMobileUIComponentDate('QJSJZY',{"minDate":"$QJSJ","dwfmt":"(EE)","length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","showtype":"doubleCalendar","advSetting":"{onpicked:function() {\n var $kssj = $(\"#QJSJ\"), $jssj = $(\"#QJSJZY\");\n  var dkssj = new Date($kssj.val()), djssj = new Date($jssj.val());\n  var now = new Date();\n  if ($kssj.val() != '' && $jssj.val() != '') {\n    $(\"#QJTS\").val((djssj-dkssj)/86400/1000+1);\n  }\n}\n}","showDayOfWeek":"false","displayValue":"","boItemId":"44467d17-783e-4c6c-8611-35b68226da2c","columnType":"DATE","displayRule":"","isNullable":false,"maxDate":"","placeholder":""});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('QJTS',{"search":"0","placeholder":"","isClearAllText":true,"barCode":false,"boUrlFormData":{"hrefSelVal":"nothing"}});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('MDD',{"search":"0","placeholder":"请填写请假目的地","isClearAllText":true,"barCode":false,"boUrlFormData":{"hrefSelVal":"nothing"}});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('JJLXR',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('LXRDH',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('LXRGX',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('BZ',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentTextarea('XDGJWB',{"listHeight":"100","autoHeight":"false","placeholder":"","fnKey1":"false","fnKey2":"false","fnKey3":"false","key":"","search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentFile('XDGJFJ',{"waterMarkFlag":"","canPreviewOfficeFlag":"0","waterMarkFontColor":"","canPreviewWPSEdit":"1","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43","fileCount":"0","createuser_width":"","compressFlag":"","boItemId":"6dc9c768-8324-4a53-8d5b-88e2e8fc7d31","filesize_width":"","fileMaxSize":500,"sortField":"CREATEDATE","canPreviewYOZOEdit":"1","waterMarkPosition":"","waterMarkFontSize":30,"createdate_width":"","uiSetting":{"anyFileExtList":""},"canPreviewWPSFlag":"1","length":"2000","uploadField":"上传人|CREATEUSER||false,上传时间|CREATEDATE||false,大小|FILESIZE||false,授权|AUTHORIZATION||false,预览|PREVIEW||false","displayValue":"","columnType":"TEXT","displayRule":"","anyFile":true,"sortType":"asc","isNullable":true,"canPreviewYOZOFlag":"1","isEncrypt":true});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('SQRZH',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('SQBMID',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initMobileUIComponentDate('SQSJ',{"displayValue":"","boItemId":"fd853600-226c-489a-85af-de6c533d9848","columnType":"DATE","search":"0","displayRule":"","isNullable":true,"length":"0","boDefId":"66ffb531-a5a1-46b6-857b-b0221f693e43"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('LCZT',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                mobileRadioOrCheckboxUI.init('SZXQ',{"data":[{"value":"本部","key":"本部"},{"value":"北校区","key":"北校区"}],"multiple":false,"uiType":"AWSUI.RadioGroups","separator":","});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('SFJXQJ',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                            try {
+                                UIInit.initUIComponentText('BJ',{"search":"0"});
+                            }catch(e){
+                                if(window.console){console.log(e)};
+                            }
+                        }//end of InitUIJS
+                    </script>
+
+                    <input type="hidden" id="fieldTableBindId" name="fieldTableBindId" value="">
+                    <input type="hidden" id="taskInstId" name="taskInstId" value="8c133cd8-14ac-4137-8c7d-4e5e4ab7c00d">
+                    <input type="hidden" id="isDetail" name="isDetail" value="">
+                    <input type="hidden" id="taskInstControlState" name="taskInstControlState" value="active">
+                    <input type="hidden" id="prevFormItemDefId" name="prevFormItemDefId" value="">
+                    <input type="hidden" id="claimType" name="claimType" value="0">
+                    <input type="hidden" id="userTaskDefName" name="userTaskDefName" value="申请进校">
+                    <input type="hidden" id="readonly" name="readonly" value="false">
+                    <input type="hidden" id="isTablet" name="isTablet" value="false">
+                    <input type="hidden" id="appId" name="appId" value="com.awspaas.user.apps.xsqj">
+                    <input type="hidden" id="opinionFileRequired" name="opinionFileRequired" value="false">
+                    <input type="hidden" id="parentProcessInstId" name="parentProcessInstId" value="">
+                    <input type="hidden" id="taskIOS" name="taskIOS" value="">
+                    <input type="hidden" id="taskIOR" name="taskIOR" value="">
+                    <input type="hidden" id="printTemplateFormDefId" name="printTemplateFormDefId" value="">
+                    <input type="hidden" id="prevBoId" name="prevBoId" value="">
+                    <input type="hidden" id="isMobile" name="isMobile" value="true">
+                    <input type="hidden" id="processDefId" name="processDefId" value="obj_5655992f57f446ceaa45aaa290a84413">
+                    <input type="hidden" id="formFileSecurityCheck" name="formFileSecurityCheck" value="true">
+                    <input type="hidden" id="deviceType" name="deviceType" value="weixin">
+                    <input type="hidden" id="commentPositionType" name="commentPositionType" value="0">
+                    <input type="hidden" id="isURLForm" name="isURLForm" value="false">
+                    <input type="hidden" id="detailIDs" name="detailIDs" value="">
+                    <input type="hidden" id="userTaskDefId" name="userTaskDefId" value="obj_c91cc9d5bdd0000184b0e9e014b01238">
+                    <input type="hidden" id="processIOC" name="processIOC" value="">
+                    <input type="hidden" id="parentTaskInstId" name="parentTaskInstId" value="cc869e7e-f2b8-4581-a058-5b897720a61c">
+                    <input type="hidden" id="processIOR" name="processIOR" value="">
+                    <input type="hidden" id="processExt1" name="processExt1" value="">
+                    <input type="hidden" id="processIOS" name="processIOS" value="">
+                    <input type="hidden" id="processInstId" name="processInstId" value="99c9b59e-0f7a-46e1-928c-7647e883106d">
+                    <input type="hidden" id="currentOpUser" name="currentOpUser" value="180811040">
+                    <textarea style="display:none;" id="formData" name="formData"></textarea>
+                    <textarea style="display:none;" id="oldFormData" name="oldFormData">{"STATUS_DISPLAYVALUE":"通过","SZXQ":"本部","BJ":"2018级计算机科学与技术1班","MDD":"惠普维修中心","XDGJWB":"","LXRDH":"18772587760","STATUS":"通过","LCZT":"审批中","SQSJ":"2021-09-29","QJSJ":"2021-10-01","SQRZH":"180811040","BZ":"","XDGJFJ":"","QJSY":"电脑充电器接触不良，去维修（刚好图书馆10.1-10.2闭馆）","QJSJZY":"2021-10-01","SZYX":"计算机系","SFJXQJ":"否","LXRGX":"室友","QJSYFJ":"","SQBMID":"74c93e79-f3b9-4c3c-a25e-c40ab0f55787","JJLXR":"禹若汐","SQR":"陈迎倩","LXFS":"18811414526","SQRQ":"2021-09-29","FORM_EDITGRID_DATA_ATTR_COLUMN":{"isCreate":false},"QJTS":"1"}</textarea>
+                    <input type="hidden" id="boDefName" name="boDefName" value="BO_EU_XSQJ_LX">
+                    <input type="hidden" id="cmd" name="cmd" value="">
+                    <input type="hidden" id="isSupplyComment" name="isSupplyComment" value="true">
+                    <input type="hidden" id="isParallelTask" name="isParallelTask" value="false">
+                    <input type="hidden" id="userTaskCustomUniqueId" name="userTaskCustomUniqueId" value="">
+                    <input type="hidden" id="formDefId" name="formDefId" value="1b7f4103-0389-4eae-91a0-b1ca653cfe10">
+                    <input type="hidden" id="processExt5" name="processExt5" value="">
+                    <input type="hidden" id="engineType" name="engineType" value="0">
+                    <input type="hidden" id="processExt4" name="processExt4" value="">
+                    <input type="hidden" id="fieldTableBoItemNames" name="fieldTableBoItemNames" value="">
+                    <input type="hidden" id="processExt3" name="processExt3" value="">
+                    <input type="hidden" id="processExt2" name="processExt2" value="">
+                    <input type="hidden" id="processExt8" name="processExt8" value="0.0">
+                    <input type="hidden" id="processExt7" name="processExt7" value="0">
+                    <input type="hidden" id="sid" name="sid" value="8d37c46c-0d30-439e-84e8-9bf36a2e10f4">
+                    <input type="hidden" id="claimResourceId" name="claimResourceId" value="">
+                    <input type="hidden" id="processExt6" name="processExt6" value="">
+                    <input type="hidden" id="securityLevel" name="securityLevel" value="0">
+                    <input type="hidden" id="taskExt3" name="taskExt3" value="">
+                    <input type="hidden" id="taskExt2" name="taskExt2" value="">
+                    <input type="hidden" id="isCreate" name="isCreate" value="false">
+                    <input type="hidden" id="notOp" name="notOp" value="false">
+                    <input type="hidden" id="isMainForm" name="isMainForm" value="true">
+                    <input type="hidden" id="processInstControlState" name="processInstControlState" value="active">
+                    <input type="hidden" id="isCCTask" name="isCCTask" value="false">
+                    <input type="hidden" id="currentOpUserName" name="currentOpUserName" value="陈迎倩">
+                    <input type="hidden" id="processIOBD" name="processIOBD" value="">
+                    <input type="hidden" id="taskExt8" name="taskExt8" value="0.0">
+                    <input type="hidden" id="lang" name="lang" value="cn">
+                    <input type="hidden" id="taskExt7" name="taskExt7" value="0">
+                    <input type="hidden" id="taskExt6" name="taskExt6" value="">
+                    <input type="hidden" id="taskExt5" name="taskExt5" value="">
+                    <input type="hidden" id="isSaveRequired" name="isSaveRequired" value="true">
+                    <input type="hidden" id="hiddenUIFields" name="hiddenUIFields" value="">
+                    <input type="hidden" id="taskExt4" name="taskExt4" value="">
+                    <input type="hidden" id="commentSize" name="commentSize" value="2">
+                    <input type="hidden" id="openState" name="openState" value="1">
+                    <input type="hidden" id="taskIOBD" name="taskIOBD" value="">
+                    <input type="hidden" id="processGroupId" name="processGroupId" value="obj_b37b092e41424ffbada360cc10f3a0d7">
+                    <input type="hidden" id="boId" name="boId" value="a84f18fd-6fad-4c17-a9d0-e7af5be2b494">
+                    <input type="hidden" id="taskIOC" name="taskIOC" value="">
+                    <input type="hidden" id="formItemDefId" name="formItemDefId" value="">
+                    <input type="hidden" id="boItemList" name="boItemList" value="SQR;SQRQ;SZYX;LXFS;QJSY;QJSYFJ;QJSJ;QJSJZY;QJTS;MDD;JJLXR;LXRDH;LXRGX;BZ;XDGJWB;XDGJFJ;SQRZH;SQBMID;STATUS;SQSJ;LCZT;SZXQ;SFJXQJ;BJ;">
+                    <input type="hidden" id="firstOpen" name="firstOpen" value="false">
+                    <input type="hidden" id="opinionOptionRequired" name="opinionOptionRequired" value="false">
+                    <input type="hidden" id="processInstIsEnd" name="processInstIsEnd" value="false">
+                    <input type="hidden" id="currentPage" name="currentPage" value="1">
+                    <input type="hidden" id="circulatedType" name="circulatedType" value="">
+                    <input type="hidden" id="html2pdf" name="html2pdf" value="false">
+                    <div class="form-grid-mobile-separator"></div><div style="width:100%;" id="ActionsoftCommentZone"><textarea class="mui-input-clear" placeholder="意见留言" id="msg" name="msg" style="height: 100px;width:100%;padding:12px;"></textarea><table id="auditMenuTable" class="required" style="width:100%;margin-left:10px;display:none;"><tbody><tr><td style="width:50%;"><div style="float: left !important;display: inline;"><div class="mui-input-row mui-radio mui-left"><input type="radio" name="commentOption" id="obj_6721a21635044fb396852e140104c675" value="提交" isvalidateform="true" checked="checked"><label>提交</label></div></div><div style="float: left !important;display: inline;"><div class="mui-input-row mui-radio mui-left"><input type="radio" name="commentOption" id="obj_5c9e3eee610d45af9d95daaead3062a8" value="继续请假并结束当前流程" isvalidateform="true"><label>继续请假并结束当前流程</label></div></div></td></tr></tbody></table><input type="hidden" id="commentId" name="commentId" value="69dfa610-ccb6-4b02-8528-95bf32490aa5"><input type="hidden" id="isCommentCreate" name="isCommentCreate" value="false"><input type="hidden" id="commentFiles" name="commentFiles" value=""></div><div class="mui-content"><div class="miu-division-mobile-div"></div><div class="mui-mobile-check-his">审批记录</div><table border="0" cellpadding="0" cellspacing="0" class="mui-options-table"><tbody><tr style="width:100%;"><td class="mui-check-td-left"><img class="mui-media-object mui-pull-left mui-media-object-img" src="icon/photo.png"><div align="center" class="mui-check-td-left-text"> <span userid="180811040|55f8e8f0-5ee7-4d20-9f9a-c9ea24b4fb4f|74c93e79-f3b9-4c3c-a25e-c40ab0f55787|62d1a84f-fdfb-42a5-87fe-93c24400f269" class="awsui-user-profile owner">陈迎倩</span></div></td><td class="mui-check-td-right"><img src="icon/circle-green.png" class="mui-task-option-img"><div><div class="mui-msg-title">学生申请(提交)</div>2021-09-29 07:33:28<p class="mui-msg-p color-white">&nbsp;</p></div></td></tr><tr style="width:100%;"><td class="mui-check-td-left"><img class="mui-media-object mui-pull-left mui-media-object-img" src="icon/photo.png"><div align="center" class="mui-check-td-left-text"> <span userid="0228005|55f8e8f0-5ee7-4d20-9f9a-c9ea24b4fb4f|74c93e79-f3b9-4c3c-a25e-c40ab0f55787|0eb5ddec-153c-4717-82ad-3714d406a7ab" class="awsui-user-profile owner">段雅文</span></div></td><td class="mui-check-td-right"><img src="icon/circle-green.png" class="mui-task-option-img"><div><div class="mui-msg-title">院系班主任/辅导员审核(同意)</div>2021-09-29 07:42:44<p class="mui-msg-p color-white">&nbsp;</p></div></td></tr><tr style="width:100%;"><td class="mui-check-td-left"><img class="mui-media-object mui-pull-left mui-media-object-img" src="icon/photo.png"><div align="center" class="mui-check-td-left-text"><span userid="180811040|55f8e8f0-5ee7-4d20-9f9a-c9ea24b4fb4f|74c93e79-f3b9-4c3c-a25e-c40ab0f55787|62d1a84f-fdfb-42a5-87fe-93c24400f269" class="awsui-user-profile owner">陈迎倩</span></div></td><td class="mui-check-td-right"><img src="icon/circle-orange.png" class="mui-task-option-img"><div><div class="mui-msg-title">申请进校(正在办理)</div>接收时间: 2021-09-29 07:42:45<br>阅读时间: 2021-09-29 07:42:56<p class="mui-msg-p color-white">&nbsp;</p></div></td></tr></tbody></table></div></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+</body>
+</html>
